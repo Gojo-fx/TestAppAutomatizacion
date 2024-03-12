@@ -1,0 +1,113 @@
+{
+  "estado": 200,
+  "id": "51",
+  "nombre": "Prueba 104",
+  "cantidad": 16,
+  "data": [
+    {
+      "arrayID": [
+        "108",
+        "109",
+        "112",
+        "119"
+      ],
+      "id": "119",
+      "estado": "0",
+      "proceso": "Prueba 104",
+      "procesoId": "51",
+      "datoError": "Bogotáa",
+      "fila": "23",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "J",
+      "operacionId": "5",
+      "operacion": "Regional (Oficina/Ciudad)",
+      "operacionHeaders": [
+        "Municipio",
+        "Departamento",
+        "RegionalJGB",
+        "Observaciones"
+      ],
+      "cantidad": "4"
+    },
+    {
+      "arrayID": [
+        "110",
+        "111",
+        "122"
+      ],
+      "id": "122",
+      "estado": "0",
+      "proceso": "Prueba 104",
+      "procesoId": "51",
+      "datoError": "Caliii",
+      "fila": "26",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "J",
+      "operacionId": "5",
+      "operacion": "Regional (Oficina/Ciudad)",
+      "operacionHeaders": [
+        "Municipio",
+        "Departamento",
+        "RegionalJGB",
+        "Observaciones"
+      ],
+      "cantidad": "3"
+    },
+    {
+      "arrayID": [
+        "113",
+        "114",
+        "117",
+        "123"
+      ],
+      "id": "123",
+      "estado": "0",
+      "proceso": "Prueba 104",
+      "procesoId": "51",
+      "datoError": "Baranquilla",
+      "fila": "28",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "J",
+      "operacionId": "5",
+      "operacion": "Regional (Oficina/Ciudad)",
+      "operacionHeaders": [
+        "Municipio",
+        "Departamento",
+        "RegionalJGB",
+        "Observaciones"
+      ],
+      "cantidad": "4"
+    },
+    {
+      "arrayID": [
+        "115",
+        "116",
+        "118",
+        "120",
+        "121"
+      ],
+      "id": "121",
+      "estado": "0",
+      "proceso": "Prueba 104",
+      "procesoId": "51",
+      "datoError": "Pastst",
+      "fila": "25",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "J",
+      "operacionId": "5",
+      "operacion": "Regional (Oficina/Ciudad)",
+      "operacionHeaders": [
+        "Municipio",
+        "Departamento",
+        "RegionalJGB",
+        "Observaciones"
+      ],
+      "cantidad": "5"
+    }
+  ],
+  "mensaje": ""
+}
