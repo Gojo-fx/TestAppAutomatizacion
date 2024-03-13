@@ -36,6 +36,7 @@ app.get('/loghomologacion', (req, res) => {
         res.json({
           "estado": 200,
           "id": procesoID,
+          "nombre": proceso[0].proceso,
           "cantidad": proceso.length,
           "data": getData ? proceso : []
         });
