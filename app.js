@@ -31,19 +31,23 @@ app.get('/homologacionopciones', (req, res) => {
           return;
         }
         // Parsea el contenido del archivo JSON
-        const reqQuery = req.query;
+        const { query: reqQuery } = req;
+
+        if (!reqQuery.hasOwnProperty("operacionid")) {
+          // Manejo del error cuando operacionid no está presente
+        }
+        
         const operacionID = reqQuery.operacionid;
-        const limit = reqQuery.limit ?? null;
-        const headers = (reqQuery.headers == true || reqQuery.headers == "true") ? true : false;
-        const getData = (reqQuery.data == true || reqQuery.data == "true") ? true : false;
-
         const jsonData = JSON.parse(data);
-
-        let operacion = jsonData[operacionID]["data"];
-
-        if(limit) {
+        let operacion = jsonData[operacionID]?.data ?? [];
+        
+        if (reqQuery.limit) {
           operacion = operacion.slice(0, 15);
         }
+        
+        const limit = reqQuery.limit ?? null;
+        const headers = !!reqQuery.headers;
+        const getData = !!reqQuery.data;        
 
         res.json({
           "estado": 200,
