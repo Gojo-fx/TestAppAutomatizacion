@@ -9,17 +9,36 @@ app.use(express.json());
 
 // Ruta de ejemplo
 app.get('/loghomologacion', (req, res) => {
-    fs.readFile('data.json', 'utf8', (err, data) => {
+    fs.readFile('AllProcesos.json', 'utf8', (err, data) => {
         if (err) {
           console.error('Error al leer el archivo:', err);
           res.status(500).send('Error interno del servidor');
           return;
         }
-        // Parsea el contenido del archivo JSON
-        const jsonData = JSON.parse(data);
-        jsonData.tipoDato = "Quemado";
-        // Envía el contenido como respuesta
-        res.json(jsonData);
+
+        const { query: reqQuery } = req;
+        if (!reqQuery.hasOwnProperty("procesoid")) {
+          // Manejo del error cuando operacionid no está presente
+        }
+        
+        const procesoID = reqQuery.procesoid;
+        const jsonData = JSON.parse(data).data;
+        let proceso = jsonData[procesoID] ?? [];
+        
+        if (reqQuery.limit) {
+          proceso = proceso.slice(0, 15);
+        }
+        
+        const limit = reqQuery.limit ?? null;
+        // const headers = !!reqQuery.headers;
+        const getData = !!reqQuery.data;        
+
+        res.json({
+          "estado": 200,
+          "id": procesoID,
+          "cantidad": proceso.length,
+          "data": getData ? proceso : []
+        });
       });
 });
 
