@@ -7,18 +7,64 @@ const PORT = 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  fs.readFile('loghomologacion.json', 'utf8', (err, data) => {
-    if (err) {
-      console.error('Error al leer el archivo:', err);
-      res.status(500).send('Error interno del servidor');
-      return;
-    }
-    // Parsea el contenido del archivo JSON
-    const jsonData = JSON.parse(data);
-    jsonData.tipoDato = "Quemado";
-    // Envía el contenido como respuesta
-    res.json(jsonData);
-  });
+  const find = req.query.find;
+
+  if(find == "getloghomologacion") {
+    fs.readFile('jsons/loghomologacion.json', 'utf8', (err, data) => {
+      if (err) {
+        console.error('Error al leer el archivo:', err);
+        res.status(500).send('Error interno del servidor');
+        return;
+      }
+      // Parsea el contenido del archivo JSON
+      const jsonData = JSON.parse(data);
+      jsonData.tipoDato = "Quemado";
+      // Envía el contenido como respuesta
+      res.json(jsonData);
+    });
+  }
+  else if(find == "getregional") {
+    fs.readFile('jsons/regional.json', 'utf8', (err, data) => {
+      if (err) {
+        console.error('Error al leer el archivo:', err);
+        res.status(500).send('Error interno del servidor');
+        return;
+      }
+      // Parsea el contenido del archivo JSON
+      const jsonData = JSON.parse(data);
+      jsonData.tipoDato = "Quemado";
+      // Envía el contenido como respuesta
+      res.json(jsonData);
+    });
+  }
+  else if(find == "getcodigoean") {
+    fs.readFile('jsons/codigoean.json', 'utf8', (err, data) => {
+      if (err) {
+        console.error('Error al leer el archivo:', err);
+        res.status(500).send('Error interno del servidor');
+        return;
+      }
+      // Parsea el contenido del archivo JSON
+      const jsonData = JSON.parse(data);
+      jsonData.tipoDato = "Quemado";
+      // Envía el contenido como respuesta
+      res.json(jsonData);
+    });
+  }
+  else if(find == "getcodigoreemplazar") {
+    fs.readFile('jsons/codigoean.json', 'utf8', (err, data) => {
+      if (err) {
+        console.error('Error al leer el archivo:', err);
+        res.status(500).send('Error interno del servidor');
+        return;
+      }
+      // Parsea el contenido del archivo JSON
+      const jsonData = JSON.parse(data);
+      jsonData.tipoDato = "Quemado";
+      // Envía el contenido como respuesta
+      res.json(jsonData);
+    });
+  }
 });
 
 
