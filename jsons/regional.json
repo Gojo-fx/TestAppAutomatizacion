@@ -1,0 +1,15 @@
+{
+    "estado": 200,
+    "id": "",
+    "cantidad": 7,
+    "data": [
+      "BARRANQUILLA",
+      "BOGOTA",
+      "BUCARAMANGA",
+      "CALI",
+      "CENTRO",
+      "MEDELLIN",
+      "PEREIRA"
+    ],
+    "mensaje": ""
+  }
