@@ -8,9 +8,11 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   const find = req.query.find;
+  const procesoid = req.query.procesoid;
 
   if(find == "getloghomologacion") {
-    fs.readFile('jsons/loghomologacion.json', 'utf8', (err, data) => {
+    fs.readFile(`jsons/loghomologacion_${procesoid}.json`, 'utf8', (err, data) => {
+
       if (err) {
         console.error('Error al leer el archivo:', err);
         res.status(500).send('Error interno del servidor');
@@ -25,6 +27,7 @@ app.get('/', (req, res) => {
   }
   else if(find == "getregional") {
     fs.readFile('jsons/regional.json', 'utf8', (err, data) => {
+
       if (err) {
         console.error('Error al leer el archivo:', err);
         res.status(500).send('Error interno del servidor');

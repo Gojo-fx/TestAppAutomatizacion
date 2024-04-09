@@ -1,0 +1,385 @@
+{
+  "estado": 200,
+  "cantidad": 22,
+  "pagina": 1,
+  "data": [
+    {
+      "arrayID": [
+        "126",
+        "144"
+      ],
+      "cantidad": "2",
+      "id": "144",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "1819818948",
+      "fila": "25",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "138"
+      ],
+      "cantidad": "1",
+      "id": "138",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "4168741987",
+      "fila": "19",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "146"
+      ],
+      "cantidad": "1",
+      "id": "146",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "41894657848",
+      "fila": "27",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "131"
+      ],
+      "cantidad": "1",
+      "id": "131",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "4198198718",
+      "fila": "12",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "147",
+        "148"
+      ],
+      "cantidad": "2",
+      "id": "148",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "46574816841",
+      "fila": "28",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "135"
+      ],
+      "cantidad": "1",
+      "id": "135",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "48489874181",
+      "fila": "16",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "136"
+      ],
+      "cantidad": "1",
+      "id": "136",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "48684198489",
+      "fila": "17",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "132"
+      ],
+      "cantidad": "1",
+      "id": "132",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "4911898798",
+      "fila": "13",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "130"
+      ],
+      "cantidad": "1",
+      "id": "130",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "4981894188",
+      "fila": "11",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "142"
+      ],
+      "cantidad": "1",
+      "id": "142",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "498416574186",
+      "fila": "23",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "137"
+      ],
+      "cantidad": "1",
+      "id": "137",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "4984981657",
+      "fila": "18",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "129"
+      ],
+      "cantidad": "1",
+      "id": "129",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "4984981981",
+      "fila": "10",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "141"
+      ],
+      "cantidad": "1",
+      "id": "141",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "49873549898",
+      "fila": "22",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "140"
+      ],
+      "cantidad": "1",
+      "id": "140",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "498741986416",
+      "fila": "21",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "143"
+      ],
+      "cantidad": "1",
+      "id": "143",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "49874689841",
+      "fila": "24",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "127"
+      ],
+      "cantidad": "1",
+      "id": "127",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "5898289828",
+      "fila": "8",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "128",
+        "134"
+      ],
+      "cantidad": "2",
+      "id": "134",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "5988978941",
+      "fila": "15",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "124"
+      ],
+      "cantidad": "1",
+      "id": "124",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "7702560000389",
+      "fila": "5",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "125"
+      ],
+      "cantidad": "1",
+      "id": "125",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "7702560026329",
+      "fila": "6",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "139"
+      ],
+      "cantidad": "1",
+      "id": "139",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "941987654685",
+      "fila": "20",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "133"
+      ],
+      "cantidad": "1",
+      "id": "133",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "94819874918",
+      "fila": "14",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    },
+    {
+      "arrayID": [
+        "145"
+      ],
+      "cantidad": "1",
+      "id": "145",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "9846878911",
+      "fila": "26",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
+      "columna": "D",
+      "operacionId": "2",
+      "operacion": "Precio JGB (EAN) - Canal Droguerias de Cadena"
+    }
+  ],
+  "mensaje": ""
+}
