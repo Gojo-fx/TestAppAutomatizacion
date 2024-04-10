@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-    const fs = require('fs').promises;
+    // const fs = require('fs').promises;
     const find = req.query.find;
     const procesoid = req.query.procesoid;
 
