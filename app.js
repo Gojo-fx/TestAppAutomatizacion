@@ -1,81 +1,11 @@
-const express = require('express');
-const fs = require('fs');
-
-const app = express();
-const PORT = 4000;
-
-app.use(express.json());
+const express = require('express')
+const app = express()
+const port = 3000
 
 app.get('/', (req, res) => {
-  const find = req.query.find;
-  const procesoid = req.query.procesoid;
+  res.send('Hello World!')
+})
 
-  if(find == "getloghomologacion") {
-    fs.readFile(`jsons/loghomologacion_${procesoid}.json`, 'utf8', (err, data) => {
-
-      if (err) {
-        console.error('Error al leer el archivo:', err);
-        res.status(500).send('Error interno del servidor');
-        return;
-      }
-      // Parsea el contenido del archivo JSON
-      const jsonData = JSON.parse(data);
-      jsonData.tipoDato = "Quemado";
-      // Envía el contenido como respuesta
-      res.json(jsonData);
-    });
-  }
-  else if(find == "getregional") {
-    fs.readFile('jsons/regional.json', 'utf8', (err, data) => {
-
-      if (err) {
-        console.error('Error al leer el archivo:', err);
-        res.status(500).send('Error interno del servidor');
-        return;
-      }
-      // Parsea el contenido del archivo JSON
-      const jsonData = JSON.parse(data);
-      jsonData.tipoDato = "Quemado";
-      // Envía el contenido como respuesta
-      res.json(jsonData);
-    });
-  }
-  else if(find == "getcodigoean") {
-    fs.readFile('jsons/codigoean.json', 'utf8', (err, data) => {
-      if (err) {
-        console.error('Error al leer el archivo:', err);
-        res.status(500).send('Error interno del servidor');
-        return;
-      }
-      // Parsea el contenido del archivo JSON
-      const jsonData = JSON.parse(data);
-      jsonData.tipoDato = "Quemado";
-      // Envía el contenido como respuesta
-      res.json(jsonData);
-    });
-  }
-  else if(find == "getcodigoreemplazar") {
-    fs.readFile('jsons/codigoean.json', 'utf8', (err, data) => {
-      if (err) {
-        console.error('Error al leer el archivo:', err);
-        res.status(500).send('Error interno del servidor');
-        return;
-      }
-      // Parsea el contenido del archivo JSON
-      const jsonData = JSON.parse(data);
-      jsonData.tipoDato = "Quemado";
-      // Envía el contenido como respuesta
-      res.json(jsonData);
-    });
-  }
-});
-
-
-app.post('/', (req, res) => {
-  res.json(req.body);
-});
-
-// Iniciar el servidor
-app.listen(PORT, () => {
-  console.log(`Servidor Express escuchando en el puerto ${PORT}`);
-});
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
