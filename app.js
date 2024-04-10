@@ -12,6 +12,8 @@ app.get('/', (req, res) => {
         const logHomologacionJSON = {
             "estado": 200,
             "cantidad": 4,
+            "id": 51,
+            "nombre": "Test Proceso",
             "pagina": 1,
             "data": [
               {
