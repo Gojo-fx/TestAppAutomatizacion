@@ -13,9 +13,45 @@ app.get('/', (req, res) => {
           "estado": 200,
           "nombre": "Prueba 103",
           "id": 50,
-          "cantidad": 2,
+          "cantidad": 4,
           "pagina": 1,
           "data": [
+            {
+              "arrayID": [
+                "206",
+                "207"
+              ],
+              "cantidad": "2",
+              "id": "207",
+              "estado": "0",
+              "proceso": "Prueba 103",
+              "procesoId": "50",
+              "datoError": "1117632",
+              "fila": "5",
+              "hoja": "1",
+              "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
+              "columna": "A",
+              "operacionId": "6",
+              "operacion": "Código EAN (Código cliente)"
+            },
+            {
+              "arrayID": [
+                "208",
+                "205"
+              ],
+              "cantidad": "2",
+              "id": "205",
+              "estado": "0",
+              "proceso": "Prueba 103",
+              "procesoId": "50",
+              "datoError": "250954",
+              "fila": "3",
+              "hoja": "1",
+              "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
+              "columna": "A",
+              "operacionId": "6",
+              "operacion": "Código EAN (Código cliente)"
+            },
             {
               "arrayID": [
                 "199",
