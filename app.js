@@ -27,6 +27,66 @@ app.get('/', (req, res) => {
           }
         });
     }
+    else if (find === "getregional") {
+      const filePath = `jsons/regional.json`;
+    
+      // Verifica la existencia del archivo
+      fs.access(filePath)
+        .then(() => fs.readFile(filePath, 'utf8'))
+        .then(data => {
+          const jsonData = JSON.parse(data);
+          jsonData.tipoDato = "Quemado";
+          res.json(jsonData);
+        })
+        .catch(err => {
+          console.error('Error al leer el archivo:', err);
+          if (err.code === 'ENOENT') {
+            res.status(404).send('Archivo no encontrado');
+          } else {
+            res.status(500).send('Error interno del servidor');
+          }
+        });
+    }
+    else if (find === "getcodigoean") {
+      const filePath = `jsons/codigoean.json`;
+    
+      // Verifica la existencia del archivo
+      fs.access(filePath)
+        .then(() => fs.readFile(filePath, 'utf8'))
+        .then(data => {
+          const jsonData = JSON.parse(data);
+          jsonData.tipoDato = "Quemado";
+          res.json(jsonData);
+        })
+        .catch(err => {
+          console.error('Error al leer el archivo:', err);
+          if (err.code === 'ENOENT') {
+            res.status(404).send('Archivo no encontrado');
+          } else {
+            res.status(500).send('Error interno del servidor');
+          }
+        });
+    }
+    else if (find === "getcodigoreemplazar") {
+      const filePath = `jsons/codigoean.json`;
+    
+      // Verifica la existencia del archivo
+      fs.access(filePath)
+        .then(() => fs.readFile(filePath, 'utf8'))
+        .then(data => {
+          const jsonData = JSON.parse(data);
+          jsonData.tipoDato = "Quemado";
+          res.json(jsonData);
+        })
+        .catch(err => {
+          console.error('Error al leer el archivo:', err);
+          if (err.code === 'ENOENT') {
+            res.status(404).send('Archivo no encontrado');
+          } else {
+            res.status(500).send('Error interno del servidor');
+          }
+        });
+    }
     
 
 
