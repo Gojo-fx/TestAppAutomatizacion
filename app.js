@@ -14,86 +14,76 @@ app.get('/', (req, res) => {
             "cantidad": 4,
             "pagina": 1,
             "data": [
-            {
+              {
                 "arrayID": [
-                "113",
-                "114",
-                "117",
-                "123"
+                  "203"
                 ],
-                "cantidad": "4",
-                "id": "123",
+                "cantidad": "1",
+                "id": "203",
                 "estado": "0",
-                "proceso": "Prueba 104",
-                "procesoId": "51",
-                "datoError": "Baranquilla",
-                "fila": "28",
-                "hoja": "1",
-                "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
-                "columna": "J",
-                "operacionId": "5",
-                "operacion": "Regional (Oficina/Ciudad)"
-            },
-            {
-                "arrayID": [
-                "112",
-                "119",
-                "108",
-                "109"
-                ],
-                "cantidad": "4",
-                "id": "109",
-                "estado": "0",
-                "proceso": "Prueba 104",
-                "procesoId": "51",
-                "datoError": "Bogotáa",
+                "proceso": "Prueba 103",
+                "procesoId": "50",
+                "datoError": "7702560000026",
                 "fila": "5",
                 "hoja": "1",
-                "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
-                "columna": "J",
-                "operacionId": "5",
-                "operacion": "Regional (Oficina/Ciudad)"
-            },
-            {
+                "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
+                "columna": "D",
+                "operacionId": "3",
+                "operacion": "Precio JGB (EAN) - Canal Depositos Drogas"
+              },
+              {
                 "arrayID": [
-                "110",
-                "111",
-                "122"
+                  "204"
                 ],
-                "cantidad": "3",
-                "id": "122",
+                "cantidad": "1",
+                "id": "204",
                 "estado": "0",
-                "proceso": "Prueba 104",
-                "procesoId": "51",
-                "datoError": "Caliii",
-                "fila": "26",
+                "proceso": "Prueba 103",
+                "procesoId": "50",
+                "datoError": "7702560009530",
+                "fila": "6",
                 "hoja": "1",
-                "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
-                "columna": "J",
-                "operacionId": "5",
-                "operacion": "Regional (Oficina/Ciudad)"
-            },
-            {
+                "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
+                "columna": "D",
+                "operacionId": "3",
+                "operacion": "Precio JGB (EAN) - Canal Depositos Drogas"
+              },
+              {
                 "arrayID": [
-                "120",
-                "121",
-                "118",
-                "115",
-                "116"
+                  "199",
+                  "201"
                 ],
-                "cantidad": "5",
-                "id": "116",
+                "cantidad": "2",
+                "id": "201",
                 "estado": "0",
-                "proceso": "Prueba 104",
-                "procesoId": "51",
-                "datoError": "Pastst",
-                "fila": "18",
+                "proceso": "Prueba 103",
+                "procesoId": "50",
+                "datoError": "Ciudad del Campo",
+                "fila": "3",
                 "hoja": "1",
-                "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA11.xlsx",
-                "columna": "J",
+                "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
+                "columna": "I",
                 "operacionId": "5",
                 "operacion": "Regional (Oficina/Ciudad)"
-            }
+              },
+              {
+                "arrayID": [
+                  "202",
+                  "200"
+                ],
+                "cantidad": "2",
+                "id": "200",
+                "estado": "0",
+                "proceso": "Prueba 103",
+                "procesoId": "50",
+                "datoError": "Villa Gorgona",
+                "fila": "6",
+                "hoja": "1",
+                "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
+                "columna": "I",
+                "operacionId": "5",
+                "operacion": "Regional (Oficina/Ciudad)"
+              }
             ],
             "mensaje": ""
         };
