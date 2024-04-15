@@ -105,6 +105,24 @@ app.get('/', (req, res) => {
               "columna": "I",
               "operacionId": "9",
               "operacion": "Bodega Cliente (Recibe: Código bodega)"
+            },
+            {
+              "arrayID": [
+                "206",
+                "207"
+              ],
+              "cantidad": "2",
+              "id": "207",
+              "estado": "0",
+              "proceso": "Prueba 103",
+              "procesoId": "50",
+              "datoError": "49265035",
+              "fila": "3",
+              "hoja": "1",
+              "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
+              "columna": "A",
+              "operacionId": "11",
+              "operacion": "Código Reemplazar(Recibe: Código cliente)"
             }
           ],
           "mensaje": ""
