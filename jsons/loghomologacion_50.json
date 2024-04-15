@@ -72,6 +72,24 @@
       "columna": "I",
       "operacionId": "5",
       "operacion": "Regional (Oficina/Ciudad)"
+    },
+    {
+      "arrayID": [
+        "205",
+        "203"
+      ],
+      "cantidad": "3",
+      "id": "200",
+      "estado": "0",
+      "proceso": "Prueba 103",
+      "procesoId": "50",
+      "datoError": "B:F65",
+      "fila": "4",
+      "hoja": "1",
+      "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
+      "columna": "I",
+      "operacionId": "9",
+      "operacion": "Bodega Cliente (Recibe: Código bodega)"
     }
   ],
   "mensaje": ""
