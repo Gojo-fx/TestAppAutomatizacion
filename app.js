@@ -1044,6 +1044,52 @@ app.get('/', (req, res) => {
         res.send("'find' No encontrado");
     }
 
+});
+
+
+app.put('/', (req, res) => {
+  res.json({
+      "estado": 200,
+      "actualizados": 6,
+      "data": [
+        {
+          "homologar": "Ciudad del Campo",
+          "referencia": "CALI",
+          "tipo": "5",
+          "procesoid": "50"
+        },
+        {
+          "homologar": "Villa Gorgona",
+          "referencia": "CALI",
+          "tipo": "5",
+          "procesoid": "50"
+        },
+        {
+          "homologar": "1117632",
+          "referencia": "Bodega Test",
+          "tipo": "9",
+          "procesoid": "50"
+        },
+        {
+          "homologar": "2505954",
+          "referencia": "Bodega Test 2",
+          "tipo": "9",
+          "procesoid": "50"
+        },
+        {
+          "homologar": "125892",
+          "referencia": "7702560039782",
+          "tipo": "6",
+          "procesoid": "50"
+        },
+        {
+          "homologar": "250954",
+          "referencia": "7702560000027",
+          "tipo": "6",
+          "procesoid": "50"
+        }
+      ]
+  })
 })
 
 app.listen(port, () => {
