@@ -13,16 +13,15 @@ app.get('/', (req, res) => {
           "estado": 200,
           "nombre": "Prueba 103",
           "id": 50,
-          "cantidad": 6,
+          "cantidad": 4,
           "pagina": 1,
           "data": [
             {
               "arrayID": [
-                "275",
-                "280"
+                "384"
               ],
-              "cantidad": "2",
-              "id": "280",
+              "cantidad": "1",
+              "id": "384",
               "estado": "0",
               "proceso": "Prueba 103",
               "procesoId": "50",
@@ -31,16 +30,15 @@ app.get('/', (req, res) => {
               "hoja": "1",
               "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
               "columna": "A",
-              "operacionId": "9",
-              "operacion": "Bodega Cliente (Recibe: Código bodega cliente)"
+              "operacionId": "6",
+              "operacion": "Código EAN (Código cliente)"
             },
             {
               "arrayID": [
-                "281",
-                "276"
+                "388"
               ],
-              "cantidad": "2",
-              "id": "276",
+              "cantidad": "1",
+              "id": "388",
               "estado": "0",
               "proceso": "Prueba 103",
               "procesoId": "50",
@@ -49,18 +47,16 @@ app.get('/', (req, res) => {
               "hoja": "1",
               "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
               "columna": "A",
-              "operacionId": "6",
-              "operacion": "Código EAN (Código cliente)"
+              "operacionId": "9",
+              "operacion": "Bodega Cliente (Recibe: Código bodega cliente)"
             },
             {
               "arrayID": [
-                "277",
-                "278",
-                "282",
-                "283"
+                "385",
+                "386"
               ],
-              "cantidad": "4",
-              "id": "283",
+              "cantidad": "2",
+              "id": "386",
               "estado": "0",
               "proceso": "Prueba 103",
               "procesoId": "50",
@@ -69,16 +65,15 @@ app.get('/', (req, res) => {
               "hoja": "1",
               "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
               "columna": "A",
-              "operacionId": "9",
-              "operacion": "Bodega Cliente (Recibe: Código bodega cliente)"
+              "operacionId": "6",
+              "operacion": "Código EAN (Código cliente)"
             },
             {
               "arrayID": [
-                "279",
-                "274"
+                "387"
               ],
-              "cantidad": "2",
-              "id": "274",
+              "cantidad": "1",
+              "id": "387",
               "estado": "0",
               "proceso": "Prueba 103",
               "procesoId": "50",
@@ -87,42 +82,8 @@ app.get('/', (req, res) => {
               "hoja": "1",
               "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
               "columna": "A",
-              "operacionId": "6",
-              "operacion": "Código EAN (Código cliente)"
-            },
-            {
-              "arrayID": [
-                "272"
-              ],
-              "cantidad": "1",
-              "id": "272",
-              "estado": "0",
-              "proceso": "Prueba 103",
-              "procesoId": "50",
-              "datoError": "Ciudad del Campo",
-              "fila": "3",
-              "hoja": "1",
-              "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
-              "columna": "I",
-              "operacionId": "5",
-              "operacion": "Regional (Oficina/Ciudad)"
-            },
-            {
-              "arrayID": [
-                "273"
-              ],
-              "cantidad": "1",
-              "id": "273",
-              "estado": "0",
-              "proceso": "Prueba 103",
-              "procesoId": "50",
-              "datoError": "Villa Gorgona",
-              "fila": "4",
-              "hoja": "1",
-              "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
-              "columna": "I",
-              "operacionId": "5",
-              "operacion": "Regional (Oficina/Ciudad)"
+              "operacionId": "9",
+              "operacion": "Bodega Cliente (Recibe: Código bodega cliente)"
             }
           ],
           "mensaje": ""
