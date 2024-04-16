@@ -16,6 +16,7 @@ app.get('/', (req, res) => {
           "cantidad": 6,
           "pagina": 1,
           "data": [
+            /*
             {
               "arrayID": [
                 "252",
@@ -124,6 +125,7 @@ app.get('/', (req, res) => {
               "operacionId": "5",
               "operacion": "Regional (Oficina/Ciudad)"
             }
+            */
           ],
           "mensaje": ""
         };
