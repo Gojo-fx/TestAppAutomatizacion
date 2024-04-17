@@ -1,6 +1,9 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 4000
+const bodyParser = require('body-parser');
+
+app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
     // const fs = require('fs').promises;
@@ -13,15 +16,11 @@ app.get('/', (req, res) => {
           "estado": 200,
           "nombre": "Prueba 103",
           "id": 50,
-          "cantidad": 4,
+          "cantidad": 11,
           "pagina": 1,
           "data": [
             {
-              "arrayID": [
-                "384"
-              ],
               "cantidad": "1",
-              "id": "384",
               "estado": "0",
               "proceso": "Prueba 103",
               "procesoId": "50",
@@ -30,15 +29,11 @@ app.get('/', (req, res) => {
               "hoja": "1",
               "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
               "columna": "A",
-              "operacionId": "6",
-              "operacion": "Código EAN (Código cliente)"
+              "operacionId": "9",
+              "operacion": "Bodega Cliente (Recibe: Código bodega cliente)"
             },
             {
-              "arrayID": [
-                "388"
-              ],
               "cantidad": "1",
-              "id": "388",
               "estado": "0",
               "proceso": "Prueba 103",
               "procesoId": "50",
@@ -51,12 +46,33 @@ app.get('/', (req, res) => {
               "operacion": "Bodega Cliente (Recibe: Código bodega cliente)"
             },
             {
-              "arrayID": [
-                "385",
-                "386"
-              ],
+              "cantidad": "1",
+              "estado": "0",
+              "proceso": "Prueba 103",
+              "procesoId": "50",
+              "datoError": "2303",
+              "fila": "4",
+              "hoja": "1",
+              "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
+              "columna": "E",
+              "operacionId": "6",
+              "operacion": "Código EAN (Código cliente)"
+            },
+            {
+              "cantidad": "1",
+              "estado": "0",
+              "proceso": "Prueba 103",
+              "procesoId": "50",
+              "datoError": "2451",
+              "fila": "6",
+              "hoja": "1",
+              "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
+              "columna": "E",
+              "operacionId": "6",
+              "operacion": "Código EAN (Código cliente)"
+            },
+            {
               "cantidad": "2",
-              "id": "386",
               "estado": "0",
               "proceso": "Prueba 103",
               "procesoId": "50",
@@ -65,15 +81,11 @@ app.get('/', (req, res) => {
               "hoja": "1",
               "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
               "columna": "A",
-              "operacionId": "6",
-              "operacion": "Código EAN (Código cliente)"
+              "operacionId": "9",
+              "operacion": "Bodega Cliente (Recibe: Código bodega cliente)"
             },
             {
-              "arrayID": [
-                "387"
-              ],
               "cantidad": "1",
-              "id": "387",
               "estado": "0",
               "proceso": "Prueba 103",
               "procesoId": "50",
@@ -84,6 +96,71 @@ app.get('/', (req, res) => {
               "columna": "A",
               "operacionId": "9",
               "operacion": "Bodega Cliente (Recibe: Código bodega cliente)"
+            },
+            {
+              "cantidad": "1",
+              "estado": "0",
+              "proceso": "Prueba 103",
+              "procesoId": "50",
+              "datoError": "3100",
+              "fila": "3",
+              "hoja": "1",
+              "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
+              "columna": "E",
+              "operacionId": "6",
+              "operacion": "Código EAN (Código cliente)"
+            },
+            {
+              "cantidad": "1",
+              "estado": "0",
+              "proceso": "Prueba 103",
+              "procesoId": "50",
+              "datoError": "4400",
+              "fila": "7",
+              "hoja": "1",
+              "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
+              "columna": "E",
+              "operacionId": "6",
+              "operacion": "Código EAN (Código cliente)"
+            },
+            {
+              "cantidad": "1",
+              "estado": "0",
+              "proceso": "Prueba 103",
+              "procesoId": "50",
+              "datoError": "4619",
+              "fila": "5",
+              "hoja": "1",
+              "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
+              "columna": "E",
+              "operacionId": "6",
+              "operacion": "Código EAN (Código cliente)"
+            },
+            {
+              "cantidad": "1",
+              "estado": "0",
+              "proceso": "Prueba 103",
+              "procesoId": "50",
+              "datoError": "Ciudad del Campo",
+              "fila": "3",
+              "hoja": "1",
+              "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
+              "columna": "I",
+              "operacionId": "5",
+              "operacion": "Regional (Oficina/Ciudad)"
+            },
+            {
+              "cantidad": "1",
+              "estado": "0",
+              "proceso": "Prueba 103",
+              "procesoId": "50",
+              "datoError": "Villa Gorgona",
+              "fila": "4",
+              "hoja": "1",
+              "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
+              "columna": "I",
+              "operacionId": "5",
+              "operacion": "Regional (Oficina/Ciudad)"
             }
           ],
           "mensaje": ""
@@ -1046,51 +1123,14 @@ app.get('/', (req, res) => {
 
 });
 
-
 app.put('/', (req, res) => {
   res.json({
       "estado": 200,
-      "actualizados": 6,
-      "data": [
-        {
-          "homologar": "Ciudad del Campo",
-          "referencia": "CALI",
-          "tipo": "5",
-          "procesoid": "50"
-        },
-        {
-          "homologar": "Villa Gorgona",
-          "referencia": "CALI",
-          "tipo": "5",
-          "procesoid": "50"
-        },
-        {
-          "homologar": "1117632",
-          "referencia": "Bodega Test",
-          "tipo": "9",
-          "procesoid": "50"
-        },
-        {
-          "homologar": "2505954",
-          "referencia": "Bodega Test 2",
-          "tipo": "9",
-          "procesoid": "50"
-        },
-        {
-          "homologar": "125892",
-          "referencia": "7702560039782",
-          "tipo": "6",
-          "procesoid": "50"
-        },
-        {
-          "homologar": "250954",
-          "referencia": "7702560000027",
-          "tipo": "6",
-          "procesoid": "50"
-        }
-      ]
+      "actualizados": (req.body.data).length,
+      "data": req.body.data
   })
-})
+});
+
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
