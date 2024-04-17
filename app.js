@@ -16,35 +16,9 @@ app.get('/', (req, res) => {
           "estado": 200,
           "nombre": "Prueba 103",
           "id": 50,
-          "cantidad": 11,
+          "cantidad": 10,
           "pagina": 1,
           "data": [
-            {
-              "cantidad": "1",
-              "estado": "0",
-              "proceso": "Prueba 103",
-              "procesoId": "50",
-              "datoError": "1117632",
-              "fila": "4",
-              "hoja": "1",
-              "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
-              "columna": "A",
-              "operacionId": "9",
-              "operacion": "Bodega Cliente (Recibe: Código bodega cliente)"
-            },
-            {
-              "cantidad": "1",
-              "estado": "0",
-              "proceso": "Prueba 103",
-              "procesoId": "50",
-              "datoError": "125892",
-              "fila": "5",
-              "hoja": "1",
-              "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
-              "columna": "A",
-              "operacionId": "9",
-              "operacion": "Bodega Cliente (Recibe: Código bodega cliente)"
-            },
             {
               "cantidad": "1",
               "estado": "0",
@@ -70,32 +44,6 @@ app.get('/', (req, res) => {
               "columna": "E",
               "operacionId": "6",
               "operacion": "Código EAN (Código cliente)"
-            },
-            {
-              "cantidad": "2",
-              "estado": "0",
-              "proceso": "Prueba 103",
-              "procesoId": "50",
-              "datoError": "2505954",
-              "fila": "7",
-              "hoja": "1",
-              "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
-              "columna": "A",
-              "operacionId": "9",
-              "operacion": "Bodega Cliente (Recibe: Código bodega cliente)"
-            },
-            {
-              "cantidad": "1",
-              "estado": "0",
-              "proceso": "Prueba 103",
-              "procesoId": "50",
-              "datoError": "250954",
-              "fila": "3",
-              "hoja": "1",
-              "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
-              "columna": "A",
-              "operacionId": "9",
-              "operacion": "Bodega Cliente (Recibe: Código bodega cliente)"
             },
             {
               "cantidad": "1",
@@ -161,6 +109,45 @@ app.get('/', (req, res) => {
               "columna": "I",
               "operacionId": "5",
               "operacion": "Regional (Oficina/Ciudad)"
+            },
+            {
+              "cantidad": "3",
+              "estado": "0",
+              "proceso": "Prueba 103",
+              "procesoId": "50",
+              "datoError": "Z:F201",
+              "fila": "5",
+              "hoja": "1",
+              "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
+              "columna": "N",
+              "operacionId": "9",
+              "operacion": "Bodega Cliente (Recibe: Código bodega cliente)"
+            },
+            {
+              "cantidad": "1",
+              "estado": "0",
+              "proceso": "Prueba 103",
+              "procesoId": "50",
+              "datoError": "Z:F202",
+              "fila": "6",
+              "hoja": "1",
+              "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
+              "columna": "N",
+              "operacionId": "9",
+              "operacion": "Bodega Cliente (Recibe: Código bodega cliente)"
+            },
+            {
+              "cantidad": "1",
+              "estado": "0",
+              "proceso": "Prueba 103",
+              "procesoId": "50",
+              "datoError": "Z:F203",
+              "fila": "7",
+              "hoja": "1",
+              "ruta": "C:\\Users\\eholding01\\Downloads\\PRUEBA12.xlsx",
+              "columna": "N",
+              "operacionId": "9",
+              "operacion": "Bodega Cliente (Recibe: Código bodega cliente)"
             }
           ],
           "mensaje": ""
