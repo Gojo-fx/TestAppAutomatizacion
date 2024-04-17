@@ -207,6 +207,21 @@ app.get('/', (req, res) => {
                 "ean": "7702560010804"
               },
               {
+                "idMaterial": "2301",
+                "descMaterial": "(I)-ALCOHOL ANTISEP. JGB GARRAFA x 700ml                                                            ",
+                "ean": "7702560027338"
+              },
+              {
+                "idMaterial": "4201",
+                "descMaterial": "(I)-C.DENTAL MULTIACCION FRESC.MAX 50ml                                                             ",
+                "ean": "7702560042010"
+              },
+              {
+                "idMaterial": "4619",
+                "descMaterial": "(I) - (A)-DIOXOGEN LIQUIDO x 120ml                                                                  ",
+                "ean": "7702560000027"
+              },
+              {
                 "idMaterial": "4545",
                 "descMaterial": "(I) - (A)-AGUA OXIGENADA JGB x 500ml                                                                ",
                 "ean": ""
